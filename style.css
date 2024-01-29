@@ -1,0 +1,96 @@
+    *{
+    margin: 0;
+    padding: 0;
+
+}
+.main{
+    width: 100%;
+    background: linear-gradient(to top,rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%),url(rtc.png);
+    background-position: center;
+    background-size: cover;
+    height: 109vh;
+}
+#navbar{
+    width: 1200px;
+    height: 71px;
+    margin: auto;
+}
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+.logo{
+    color: #ff7200;
+    font-size: 30px;
+    font-family: Arial;
+    padding-left: 20px;
+    float: left;
+    padding-top: 9px;
+}
+.meta{
+    width: 500px;
+    float: left;
+    height: 90px;
+}
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 19px;
+    font-size: 18px;
+}
+ul li a{
+    text-decoration: none;
+    color: aliceblue;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+ul li a:hover{
+    color: #ff7200;
+
+}
+.search{
+   width: 340px;
+   float: left;
+   margin-left: 280px;
+}
+.srch{
+    font-family: 'Times New Roman';
+    width: 100px;
+    height: 30px;
+    background: transparent;
+    border: 1px solid #ff7200;
+    margin-top: 13px;
+    color: wheat;
+    border-right:none;
+    font-size: 16px;
+    float: left;
+    padding: 5px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px ;
+
+}
+.button:focus{
+    width:94px;
+    height: 37px;
+    background: #ff7200;
+    border: 2px solid #ff7200;
+    margin-top: 13px;
+    color: aliceblue;
+    font-size: 15px;
+    border-bottom-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.button:focus{
+    outline: none;
+}
+.srch:focus{
+    outline: none;
+}
